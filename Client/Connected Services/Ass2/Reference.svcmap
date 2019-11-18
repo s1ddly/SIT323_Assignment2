@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d88006dc-2aff-4d99-9c98-538ee6d38935" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://ss-ass2-lb-1915629589.us-east-1.elb.amazonaws.com/IISHostedCalc/service.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="6e8c59cd-b47f-4fb8-a0f0-5e0d7badfe05" SourceId="1" SourceUrl="http://ss-ass2-lb-1915629589.us-east-1.elb.amazonaws.com/IISHostedCalc/service.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="75eb30c9-d3e1-41eb-badb-95ffcf71814a" SourceId="1" SourceUrl="http://ss-ass2-lb-1915629589.us-east-1.elb.amazonaws.com/IISHostedCalc/service.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="7bc56339-a832-452e-867c-62868b344830" SourceId="1" SourceUrl="http://ss-ass2-lb-1915629589.us-east-1.elb.amazonaws.com/IISHostedCalc/service.svc/mex" />
+    <MetadataFile FileName="Heuristic1.xsd" MetadataType="Schema" ID="09dcc6a5-3cd0-4693-821a-a03f74d53960" SourceId="1" SourceUrl="http://ss-ass2-lb-1915629589.us-east-1.elb.amazonaws.com/IISHostedCalc/service.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
